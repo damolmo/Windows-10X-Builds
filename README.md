@@ -1,2 +1,3 @@
-# Windows-10X---SAMSUNG-Galaxy-Book-12
-FFU's images for Windows 10X
+# Windows-10X on SAMSUNG-Galaxy-Book-12
+
+
