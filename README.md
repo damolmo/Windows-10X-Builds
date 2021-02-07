@@ -16,7 +16,7 @@ amd64 (X86-64) images based on Windows 10X Insider Previews.
 3.- In that window, type the following replacing the letter "X" with your Windows 10 drive disk<br/>
 
 ```
-cd c:\Program Files (x86)\Windows Kits\Tools\bin\i386
+cd X:\Program Files (x86)\Windows Kits\Tools\bin\i386
 
 "%ProgramFiles(x86)%\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\%PROCESSOR_ARCHITECTURE%\DISM\wimmountadksetup%PROCESSOR_ARCHITECTURE%.exe" /q /uninstall
 ```
@@ -48,17 +48,17 @@ MakeWinPEMedia /UFD C:\WinPE_amd64 P:
 
 7.- Shutdown your Laptop and enter your BIOS (Access key is OEM dependent:
 ```
-ASRock: F2 or DEL
-ASUS: F2 for all PCs, F2 or DEL for Motherboards
-Acer: F2 or DEL
-Dell: F2 or F12
+ASRock: F2/DEL
+ASUS: F2/DEL
+Acer: F2/DEL
+Dell: F2/F12
 ECS: DEL
-Gigabyte / Aorus: F2 or DEL
+Gigabyte / Aorus: F2/DEL
 HP: F10
-Lenovo (Consumer Laptops): F2 or Fn + F2
+Lenovo (Consumer Laptops): F2/Fn + F2
 Lenovo (Desktops): F1
 Lenovo (ThinkPads): Enter then F1.
-MSI: DEL for motherboards and PCs
+MSI: DEL 
 Microsoft Surface Tablets: Press and hold volume up button.
 Origin PC: F2
 Samsung: F2
