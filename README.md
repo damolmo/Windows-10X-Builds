@@ -9,7 +9,7 @@ amd64 (X86-64) images based on Windows 10X Insider Previews.
 
 0.- Download the latest Windows 10X build from <a href="https://github.com/daviiid99/Windows-10X-Builds/releases/tag/20279">Releases</a><br/>
 
-1.- On a Windows 10 PC, download and install the <a href="https://github.com/daviiid99/Windows-10X-Builds/blob/main/Tools/adksetup.exe">ADK</a> and <a href="https://github.com/daviiid99/Windows-10X-Builds/blob/main/Tools/adkwinpesetup.exe">WinPE</a> tools (needed to create the USB installer)<br/>
+1.- On a Windows 10 PC, download and install the <a href="https://github.com/daviiid99/Windows-10X-Builds/raw/main/Tools/adksetup.exe">ADK</a> and <a href="https://github.com/daviiid99/Windows-10X-Builds/raw/main/Tools/adkwinpesetup.exe">WinPE</a> tools (needed to create the USB installer)<br/>
 
 2.- Go to Start and search "Deployment and Imaging Tools Environment". Open it.
 
