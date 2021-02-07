@@ -15,9 +15,11 @@ amd64 (X86-64) images based on Windows 10X Insider Previews.
 
 3.- In that window, type the following replacing the letter "X" with your Windows 10 drive disk<br/>
 
-```cd c:\Program Files (x86)\Windows Kits\Tools\bin\i386```<br/>
-```"%ProgramFiles(x86)%\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\%PROCESSOR_ARCHITECTURE%\DISM\wimmountadksetup%PROCESSOR_ARCHITECTURE%.exe" /q /uninstall```<br/>
+```
+cd c:\Program Files (x86)\Windows Kits\Tools\bin\i386
 
+"%ProgramFiles(x86)%\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\%PROCESSOR_ARCHITECTURE%\DISM\wimmountadksetup%PROCESSOR_ARCHITECTURE%.exe" /q /uninstall
+```
 4.- In the same window, now type ```diskpart```<br/>
 
 5.- Attach the USB drive where you want create the installer and type the following lines:<br/>
@@ -35,7 +37,7 @@ format fs=NTFS quick label="Images"
 assign letter=I
 exit
 
-#Steps to set up` WinPE/installations files
+#Steps to set up WinPE/installations files
 copy amd64 C:\WinPE_amd64
 MakeWinPEMedia /UFD C:\WinPE_amd64 P:
 
